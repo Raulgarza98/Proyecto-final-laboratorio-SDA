@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  7 09:53:41 2020
+# Process ID: 5356
+# Current directory: C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1648 C:\Users\raul9\Documents\Ago-Dic 2020\Laboratorio de Sistemas Digitales\Proyecto Final\PFV3RaulSebas\PFV3RaulSebas.xpr
+# Log file: C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/vivado.log
+# Journal file: C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/PFV3RaulSebas.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas'
+INFO: [Project 1-313] Project file moved from 'C:/Users/L03068681/Contacts/Desktop/PFV3RaulSebas' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd', nor could it be found using path 'C:/Users/L03068681/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/COMANDOS_LCD_REVD.vhd', nor could it be found using path 'C:/Users/L03068681/INTESC_LCD_8BITS_RevD/COMANDOS_LCD_REVD.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd', nor could it be found using path 'C:/Users/L03068681/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd', nor could it be found using path 'C:/Users/L03068681/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'PFV3RaulSebas.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.898 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/COMANDOS_LCD_REVD.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/COMANDOS_LCD_REVD.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/raul9/Documents/Ago-Dic 2020/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd}}
+add_files -norecurse {{C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/INTESC_LCD_8BITS_RevD/COMANDOS_LCD_REVD.vhd} {C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd} {C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd} {C:/Users/raul9/Documents/Ago-Dic 2020/Laboratorio de Sistemas Digitales/Proyecto Final/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  7 09:59:35 2020...
